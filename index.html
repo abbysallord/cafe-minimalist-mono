@@ -86,59 +86,59 @@
                     <span>Single Origin & Micro-Lot Roastery</span>
                 </div>
                 <h1 class="font-serif text-6xl sm:text-7xl lg:text-8xl leading-[0.95] text-warm-900 tracking-tight">
-                    Quiet luxury <br>in every <span class="italic font-normal text-terracotta">pour.</span>
+                    Quiet luxury <br>in every <span class="italic font-normal text-terracotta">sip</span>.
                 </h1>
                 <p class="text-warm-800/80 text-lg sm:text-xl font-light max-w-xl leading-relaxed">
-                    An architectural sanctuary for mindful slow living. Thoughtfully sourced beans, artisanal sourdoughs, and serene morning rituals.
+                    An architectural sanctuary dedicated to rare micro-lots, meticulous pour-overs, and unhurried mornings in the heart of the city.
                 </p>
                 <div class="flex flex-col sm:flex-row items-stretch sm:items-center space-y-4 sm:space-y-0 sm:space-x-4 pt-4">
-                    <a href="#offerings" class="px-8 py-4 bg-warm-900 text-warm-50 rounded-full text-sm font-medium tracking-wider uppercase text-center hover:bg-terracotta transition duration-300">
+                    <button onclick="toggleReserveModal(true)" class="px-8 py-4 bg-warm-900 text-warm-50 text-xs font-semibold uppercase tracking-widest rounded-full hover:bg-terracotta transition duration-300 text-center">
+                        Reserve a Table
+                    </button>
+                    <a href="#offerings" class="px-8 py-4 border border-warm-300 text-warm-900 text-xs font-semibold uppercase tracking-widest rounded-full hover:border-warm-900 transition duration-300 text-center">
                         Explore Menu
                     </a>
-                    <button onclick="toggleReserveModal(true)" class="px-8 py-4 border border-warm-300 text-warm-900 rounded-full text-sm font-medium tracking-wider uppercase hover:border-warm-900 transition duration-300">
-                        Book a Table
-                    </button>
                 </div>
             </div>
-
-            <div class="lg:col-span-5 relative">
-                <div class="aspect-[4/5] rounded-2xl overflow-hidden shadow-2xl bg-warm-200">
-                    <img src="https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=1000&q=80" alt="Pour over coffee ritual" class="w-full h-full object-cover hover:scale-105 transition duration-700">
-                </div>
-                <div class="absolute -bottom-6 -left-6 bg-warm-50 border border-warm-200 p-6 rounded-xl shadow-lg max-w-xs hidden sm:block">
-                    <p class="font-serif text-2xl text-warm-900 mb-1">“The espresso is perfection.”</p>
-                    <p class="text-xs uppercase tracking-widest text-warm-600">— Monocle Magazine</p>
+            <div class="lg:col-span-5">
+                <div class="relative aspect-[4/5] rounded-2xl overflow-hidden shadow-2xl bg-warm-200">
+                    <img src="https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&q=80&w=1000" alt="Minimalist Cafe Interior" class="w-full h-full object-cover">
+                    <div class="absolute inset-0 bg-gradient-to-t from-warm-900/40 via-transparent to-transparent"></div>
+                    <div class="absolute bottom-6 left-6 right-6 p-6 bg-warm-50/90 backdrop-blur-md rounded-xl border border-warm-200/50 flex items-center justify-between">
+                        <div>
+                            <p class="text-xs uppercase tracking-widest text-warm-800/70">Current Batch</p>
+                            <p class="font-serif text-xl text-warm-900">Yirgacheffe Gedeb, Ethiopia</p>
+                        </div>
+                        <span class="w-3 h-3 rounded-full bg-terracotta animate-pulse"></span>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- PHILOSOPHY -->
+    <!-- PHILOSOPHY / MANIFESTO -->
     <section id="philosophy" class="py-28 px-6 bg-warm-100/50 border-b border-warm-200">
-        <div class="max-w-4xl mx-auto text-center space-y-8">
-            <span class="text-xs uppercase tracking-widest text-warm-600 font-semibold">Our Manifesto</span>
-            <h2 class="font-serif text-4xl sm:text-5xl lg:text-6xl text-warm-900 leading-tight">
-                Stripped of noise. Dedicated to craft, origin, and unhurried conversation.
-            </h2>
-            <p class="text-warm-800/80 text-lg font-light leading-relaxed max-w-2xl mx-auto">
-                We work directly with ethical coffee farmers across Ethiopia, Colombia, and Guatemala. Every batch is roasted in small quantities in-house to preserve the delicate tasting notes of terroir.
-            </p>
-            <div class="grid grid-cols-1 sm:grid-cols-3 gap-8 pt-12 border-t border-warm-200 text-left">
-                <div class="space-y-3">
-                    <span class="font-serif text-3xl text-terracotta">01</span>
-                    <h3 class="font-medium text-warm-900 text-lg">Ethical Direct Trade</h3>
-                    <p class="text-sm text-warm-700 font-light">Fair partnerships with generational farmers ensuring sustainable livelihoods.</p>
+        <div class="max-w-7xl mx-auto space-y-20">
+            <div class="max-w-2xl space-y-4">
+                <span class="text-xs uppercase tracking-widest font-semibold text-terracotta">Our Ethos</span>
+                <h2 class="font-serif text-4xl sm:text-5xl text-warm-900">Crafted with intention, served with grace.</h2>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-12 pt-12 border-t border-warm-200">
+                <div class="space-y-4">
+                    <span class="font-serif text-4xl text-warm-400">01</span>
+                    <h3 class="font-serif text-2xl text-warm-900">Direct Trade Sourcing</h3>
+                    <p class="text-warm-800/80 leading-relaxed text-sm">We partner directly with family-owned micro-lots across Ethiopia, Colombia, and Sumatra, ensuring absolute traceability and ethical compensation.</p>
                 </div>
-                <div class="space-y-3">
-                    <span class="font-serif text-3xl text-terracotta">02</span>
-                    <h3 class="font-medium text-warm-900 text-lg">In-House Bakery</h3>
-                    <p class="text-sm text-warm-700 font-light">48-hour fermented sourdoughs and organic pastries baked fresh at dawn.</p>
+                <div class="space-y-4">
+                    <span class="font-serif text-4xl text-warm-400">02</span>
+                    <h3 class="font-serif text-2xl text-warm-900">Precision Roasting</h3>
+                    <p class="text-warm-800/80 leading-relaxed text-sm">Each bean is roasted in small batches on our vintage cast-iron roaster, highlighting unique origin notes, acidity, and delicate floral finishes.</p>
                 </div>
-                <div class="space-y-3">
-                    <span class="font-serif text-3xl text-terracotta">03</span>
-                    <h3 class="font-serif text-3xl text-terracotta">03</h3>
-                    <h3 class="font-medium text-warm-900 text-lg">Acoustic Serenity</h3>
-                    <p class="text-sm text-warm-700 font-light">Designed with natural clay plaster, ash wood, and sound-absorbing minimalism.</p>
+                <div class="space-y-4">
+                    <span class="font-serif text-4xl text-warm-400">03</span>
+                    <h3 class="font-serif text-2xl text-warm-900">Mindful Ritual</h3>
+                    <p class="text-warm-800/80 leading-relaxed text-sm">Our space is crafted as a sanctuary from the rush. Every pour-over and ceramic vessel is designed to invite stillness and contemplation.</p>
                 </div>
             </div>
         </div>
@@ -146,98 +146,104 @@
 
     <!-- OFFERINGS / MENU -->
     <section id="offerings" class="py-28 px-6">
-        <div class="max-w-7xl mx-auto">
-            <div class="flex flex-col md:flex-row md:items-end justify-between mb-16">
-                <div>
-                    <span class="text-xs uppercase tracking-widest text-warm-600 font-semibold">Curated Menu</span>
-                    <h2 class="font-serif text-4xl sm:text-5xl text-warm-900 mt-2">The Artisanal Selection</h2>
+        <div class="max-w-7xl mx-auto space-y-20">
+            <div class="flex flex-col md:flex-row md:items-end justify-between gap-6">
+                <div class="space-y-4">
+                    <span class="text-xs uppercase tracking-widest font-semibold text-terracotta">Curated Menu</span>
+                    <h2 class="font-serif text-4xl sm:text-5xl text-warm-900">Brewed & Baked</h2>
                 </div>
-                <p class="text-warm-700 max-w-md text-sm mt-4 md:mt-0 font-light">
-                    Oat milk and house-made almond macadamia milk available for all espresso and ceremonial grade matcha drinks.
-                </p>
+                <p class="text-warm-800/70 max-w-sm text-sm">All milks available: organic whole, oat, and house-made almond macadamia.</p>
             </div>
 
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-16">
-                <!-- COFFEE & BEVERAGES -->
-                <div class="space-y-8">
-                    <h3 class="font-serif text-2xl text-warm-900 pb-4 border-b border-warm-300 flex justify-between items-center">
-                        <span>Coffee & Elixirs</span>
-                        <span class="text-xs font-sans uppercase tracking-widest text-warm-600">Hot / Iced</span>
-                    </h3>
+                <!-- COFFEE -->
+                <div class="space-y-8 bg-warm-100/60 p-8 sm:p-12 rounded-3xl border border-warm-200/80">
+                    <div class="flex items-center justify-between border-b border-warm-200 pb-6">
+                        <h3 class="font-serif text-3xl text-warm-900">Espresso & Pour-Over</h3>
+                        <i data-lucide="coffee" class="w-6 h-6 text-terracotta"></i>
+                    </div>
 
                     <div class="space-y-6">
-                        <div class="flex justify-between items-baseline group">
+                        <div class="flex items-baseline justify-between group">
                             <div>
-                                <h4 class="font-medium text-warm-900 group-hover:text-terracotta transition">Pour Over (Yirgacheffe Geisha)</h4>
-                                <p class="text-xs text-warm-600 font-light">Jasmine, bergamot, white peach</p>
+                                <h4 class="font-medium text-warm-900 group-hover:text-terracotta transition">Single Origin Pour-Over</h4>
+                                <p class="text-xs text-warm-800/70 mt-0.5">V60 / Chemex • Jasmine, Bergamot, Peach</p>
                             </div>
-                            <span class="font-serif text-lg text-warm-900 ml-4">$7.50</span>
+                            <span class="font-serif text-xl text-warm-900">₹450</span>
                         </div>
-
-                        <div class="flex justify-between items-baseline group">
+                        <div class="flex items-baseline justify-between group">
                             <div>
-                                <h4 class="font-medium text-warm-900 group-hover:text-terracotta transition">Ritual Cortado</h4>
-                                <p class="text-xs text-warm-600 font-light">Double ristretto, textured local whole milk</p>
+                                <h4 class="font-medium text-warm-900 group-hover:text-terracotta transition">Signature Cortado</h4>
+                                <p class="text-xs text-warm-800/70 mt-0.5">Double ristretto, textured oat milk</p>
                             </div>
-                            <span class="font-serif text-lg text-warm-900 ml-4">$5.00</span>
+                            <span class="font-serif text-xl text-warm-900">₹320</span>
                         </div>
-
-                        <div class="flex justify-between items-baseline group">
+                        <div class="flex items-baseline justify-between group">
                             <div>
-                                <h4 class="font-medium text-warm-900 group-hover:text-terracotta transition">Uji Ceremonial Matcha</h4>
-                                <p class="text-xs text-warm-600 font-light">First harvest stone-ground green tea, bamboo whisked</p>
+                                <h4 class="font-medium text-warm-900 group-hover:text-terracotta transition">Kyoto Cold Brew</h4>
+                                <p class="text-xs text-warm-800/70 mt-0.5">18-hour slow drip • Notes of dark cacao & cherry</p>
                             </div>
-                            <span class="font-serif text-lg text-warm-900 ml-4">$8.00</span>
+                            <span class="font-serif text-xl text-warm-900">₹380</span>
                         </div>
-
-                        <div class="flex justify-between items-baseline group">
+                        <div class="flex items-baseline justify-between group">
                             <div>
-                                <h4 class="font-medium text-warm-900 group-hover:text-terracotta transition">Cardamom Rose Latte</h4>
-                                <p class="text-xs text-warm-600 font-light">House cardamom syrup, organic rose petals, espresso</p>
+                                <h4 class="font-medium text-warm-900 group-hover:text-terracotta transition">Cardamom Spiced Latte</h4>
+                                <p class="text-xs text-warm-800/70 mt-0.5">House cardamom syrup, espresso, steamed milk</p>
                             </div>
-                            <span class="font-serif text-lg text-warm-900 ml-4">$7.00</span>
+                            <span class="font-serif text-xl text-warm-900">₹390</span>
+                        </div>
+                        <div class="flex items-baseline justify-between group">
+                            <div>
+                                <h4 class="font-medium text-warm-900 group-hover:text-terracotta transition">Ceremonial Matcha</h4>
+                                <p class="text-xs text-warm-800/70 mt-0.5">Uji, Kyoto first-harvest green tea</p>
+                            </div>
+                            <span class="font-serif text-xl text-warm-900">₹420</span>
                         </div>
                     </div>
                 </div>
 
-                <!-- BAKERY & TOASTS -->
-                <div class="space-y-8">
-                    <h3 class="font-serif text-2xl text-warm-900 pb-4 border-b border-warm-300 flex justify-between items-center">
-                        <span>Bakery & Tartines</span>
-                        <span class="text-xs font-sans uppercase tracking-widest text-warm-600">Fresh Daily</span>
-                    </h3>
+                <!-- BAKEHOUSE -->
+                <div class="space-y-8 bg-warm-100/60 p-8 sm:p-12 rounded-3xl border border-warm-200/80">
+                    <div class="flex items-center justify-between border-b border-warm-200 pb-6">
+                        <h3 class="font-serif text-3xl text-warm-900">Artisan Bakehouse</h3>
+                        <i data-lucide="cake" class="w-6 h-6 text-terracotta"></i>
+                    </div>
 
                     <div class="space-y-6">
-                        <div class="flex justify-between items-baseline group">
-                            <div>
-                                <h4 class="font-medium text-warm-900 group-hover:text-terracotta transition">Avocado & Cashew Tahini Toast</h4>
-                                <p class="text-xs text-warm-600 font-light">Sourdough, compressed avocado, toasted dukkah, lemon oil</p>
-                            </div>
-                            <span class="font-serif text-lg text-warm-900 ml-4">$14.00</span>
-                        </div>
-
-                        <div class="flex justify-between items-baseline group">
-                            <div>
-                                <h4 class="font-medium text-warm-900 group-hover:text-terracotta transition">Almond Frangipane Croissant</h4>
-                                <p class="text-xs text-warm-600 font-light">Double baked, rich almond cream, sliced roasted almonds</p>
-                            </div>
-                            <span class="font-serif text-lg text-warm-900 ml-4">$6.50</span>
-                        </div>
-
-                        <div class="flex justify-between items-baseline group">
-                            <div>
-                                <h4 class="font-medium text-warm-900 group-hover:text-terracotta transition">Ricotta & Fig Tartine</h4>
-                                <p class="text-xs text-warm-600 font-light">Whipped house ricotta, mission figs, wildflower honey</p>
-                            </div>
-                            <span class="font-serif text-lg text-warm-900 ml-4">$12.00</span>
-                        </div>
-
-                        <div class="flex justify-between items-baseline group">
+                        <div class="flex items-baseline justify-between group">
                             <div>
                                 <h4 class="font-medium text-warm-900 group-hover:text-terracotta transition">Cardamom Morning Bun</h4>
-                                <p class="text-xs text-warm-600 font-light">Laminated brioche dough, raw cane sugar, freshly ground cardamom</p>
+                                <p class="text-xs text-warm-800/70 mt-0.5">Laminated dough, turbinado sugar, fresh cardamom</p>
                             </div>
-                            <span class="font-serif text-lg text-warm-900 ml-4">$5.50</span>
+                            <span class="font-serif text-xl text-warm-900">₹260</span>
+                        </div>
+                        <div class="flex items-baseline justify-between group">
+                            <div>
+                                <h4 class="font-medium text-warm-900 group-hover:text-terracotta transition">Sourdough Avocado Tartine</h4>
+                                <p class="text-xs text-warm-800/70 mt-0.5">House levain, smashed avocado, pickled shallots, dukkah</p>
+                            </div>
+                            <span class="font-serif text-xl text-warm-900">₹520</span>
+                        </div>
+                        <div class="flex items-baseline justify-between group">
+                            <div>
+                                <h4 class="font-medium text-warm-900 group-hover:text-terracotta transition">Almond Croissant</h4>
+                                <p class="text-xs text-warm-800/70 mt-0.5">Frangipane filling, toasted sliced almonds</p>
+                            </div>
+                            <span class="font-serif text-xl text-warm-900">₹310</span>
+                        </div>
+                        <div class="flex items-baseline justify-between group">
+                            <div>
+                                <h4 class="font-medium text-warm-900 group-hover:text-terracotta transition">Dark Chocolate Sea Salt Cookie</h4>
+                                <p class="text-xs text-warm-800/70 mt-0.5">Valrhona 70%, Maldon flaky salt</p>
+                            </div>
+                            <span class="font-serif text-xl text-warm-900">₹240</span>
+                        </div>
+                        <div class="flex items-baseline justify-between group">
+                            <div>
+                                <h4 class="font-medium text-warm-900 group-hover:text-terracotta transition">Fig & Rosemary Scone</h4>
+                                <p class="text-xs text-warm-800/70 mt-0.5">Mission figs, fresh garden rosemary, clotted cream</p>
+                            </div>
+                            <span class="font-serif text-xl text-warm-900">₹290</span>
                         </div>
                     </div>
                 </div>
@@ -245,137 +251,140 @@
         </div>
     </section>
 
-    <!-- THE SPACE GALLERY -->
-    <section id="space" class="py-28 px-6 bg-warm-100/50 border-y border-warm-200">
+    <!-- THE SPACE -->
+    <section id="space" class="py-28 px-6 bg-warm-900 text-warm-50">
         <div class="max-w-7xl mx-auto space-y-16">
-            <div class="text-center max-w-2xl mx-auto space-y-4">
-                <span class="text-xs uppercase tracking-widest text-warm-600 font-semibold">Interior Architecture</span>
-                <h2 class="font-serif text-4xl sm:text-5xl text-warm-900">A sanctuary of calm</h2>
-                <p class="text-warm-700 font-light">Designed for deep work, quiet reading, and unhurried morning contemplation.</p>
+            <div class="max-w-2xl space-y-4">
+                <span class="text-xs uppercase tracking-widest font-semibold text-terracotta">Atmosphere</span>
+                <h2 class="font-serif text-4xl sm:text-5xl">Designed for silence, light, and community.</h2>
             </div>
 
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-                <div class="aspect-[4/5] rounded-xl overflow-hidden bg-warm-200">
-                    <img src="https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=800&q=80" alt="Cafe interior" class="w-full h-full object-cover hover:scale-105 transition duration-700">
+                <div class="aspect-[4/5] rounded-2xl overflow-hidden relative group">
+                    <img src="https://images.unsplash.com/photo-1442512595331-e89e73853f31?auto=format&fit=crop&q=80&w=800" alt="Pour over brewing" class="w-full h-full object-cover group-hover:scale-105 transition duration-700">
+                    <div class="absolute inset-0 bg-gradient-to-t from-warm-900/80 via-transparent to-transparent flex items-end p-8">
+                        <p class="font-serif text-2xl">The Brew Bar</p>
+                    </div>
                 </div>
-                <div class="aspect-[4/5] rounded-xl overflow-hidden bg-warm-200 md:-translate-y-8">
-                    <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=800&q=80" alt="Latte art" class="w-full h-full object-cover hover:scale-105 transition duration-700">
+                <div class="aspect-[4/5] rounded-2xl overflow-hidden relative group md:-translate-y-8">
+                    <img src="https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&q=80&w=800" alt="Minimalist seating" class="w-full h-full object-cover group-hover:scale-105 transition duration-700">
+                    <div class="absolute inset-0 bg-gradient-to-t from-warm-900/80 via-transparent to-transparent flex items-end p-8">
+                        <p class="font-serif text-2xl">Warm Minimalism</p>
+                    </div>
                 </div>
-                <div class="aspect-[4/5] rounded-xl overflow-hidden bg-warm-200">
-                    <img src="https://images.unsplash.com/photo-1442512595331-e89e73853f31?auto=format&fit=crop&w=800&q=80" alt="Coffee beans" class="w-full h-full object-cover hover:scale-105 transition duration-700">
+                <div class="aspect-[4/5] rounded-2xl overflow-hidden relative group">
+                    <img src="https://images.unsplash.com/photo-1511920170033-f8396924c348?auto=format&fit=crop&q=80&w=800" alt="Coffee beans" class="w-full h-full object-cover group-hover:scale-105 transition duration-700">
+                    <div class="absolute inset-0 bg-gradient-to-t from-warm-900/80 via-transparent to-transparent flex items-end p-8">
+                        <p class="font-serif text-2xl">Micro-Lot Roasts</p>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- HOURS & VISIT -->
-    <section id="hours" class="py-28 px-6">
+    <!-- VISIT & HOURS -->
+    <section id="hours" class="py-28 px-6 border-b border-warm-200">
         <div class="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <div class="space-y-8">
-                <span class="text-xs uppercase tracking-widest text-warm-600 font-semibold">Location & Hours</span>
-                <h2 class="font-serif text-4xl sm:text-5xl text-warm-900">Come experience Atelier.</h2>
-                <p class="text-warm-800/80 font-light leading-relaxed">
-                    Situated in the historic design district. Walk-ins are always welcome for counter seating and espresso service. Table reservations are available for morning breakfast and afternoon tastings.
+                <div class="space-y-4">
+                    <span class="text-xs uppercase tracking-widest font-semibold text-terracotta">Location</span>
+                    <h2 class="font-serif text-4xl sm:text-5xl text-warm-900">Come find your quiet corner.</h2>
+                </div>
+                <p class="text-warm-800/80 leading-relaxed font-light">
+                    Located in the quiet tree-lined avenues of Indiranagar. Walk-ins are always welcomed, though reservations are recommended for weekend morning tastings.
                 </p>
 
                 <div class="space-y-4 pt-4 border-t border-warm-200">
                     <div class="flex justify-between py-2 border-b border-warm-200/50">
-                        <span class="text-warm-900 font-medium">Monday — Friday</span>
-                        <span class="text-warm-700">7:00 AM — 5:00 PM</span>
+                        <span class="font-medium text-warm-900">Monday — Friday</span>
+                        <span class="text-warm-800/80 font-serif text-lg">7:30 am — 8:00 pm</span>
                     </div>
                     <div class="flex justify-between py-2 border-b border-warm-200/50">
-                        <span class="text-warm-900 font-medium">Saturday — Sunday</span>
-                        <span class="text-warm-700">8:00 AM — 6:00 PM</span>
-                    </div>
-                    <div class="flex justify-between py-2">
-                        <span class="text-warm-900 font-medium">Location</span>
-                        <span class="text-warm-700">420 Mercer Street, Design District</span>
+                        <span class="font-medium text-warm-900">Saturday — Sunday</span>
+                        <span class="text-warm-800/80 font-serif text-lg">8:00 am — 9:00 pm</span>
                     </div>
                 </div>
 
-                <div class="pt-4">
-                    <button onclick="toggleReserveModal(true)" class="px-8 py-4 bg-warm-900 text-warm-50 rounded-full text-sm font-medium tracking-wider uppercase hover:bg-terracotta transition duration-300">
-                        Reserve Your Table
-                    </button>
-                </div>
+                <button onclick="toggleReserveModal(true)" class="px-8 py-4 bg-warm-900 text-warm-50 text-xs font-semibold uppercase tracking-widest rounded-full hover:bg-terracotta transition duration-300">
+                    Reserve a Table
+                </button>
             </div>
 
-            <div class="aspect-[4/3] rounded-2xl overflow-hidden shadow-xl bg-warm-200 border border-warm-300">
-                <iframe title="Map location" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.019553767228!2d-122.41941548468196!3d37.77492977975903!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085809c6c8f4459%3A0xb10ed6d9b5050fa5!2sTwitter%20HQ!5e0!3m2!1sen!2sus!4v1631526315024!5m2!1sen!2sus" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            <div class="aspect-[4/3] rounded-3xl overflow-hidden bg-warm-200 border border-warm-200/80 shadow-lg relative">
+                <img src="https://images.unsplash.com/photo-1521017432531-fbd92d768814?auto=format&fit=crop&q=80&w=1000" alt="Cafe Exterior" class="w-full h-full object-cover">
+                <div class="absolute inset-0 bg-warm-900/10"></div>
             </div>
         </div>
     </section>
 
     <!-- FOOTER -->
-    <footer class="bg-warm-900 text-warm-50 py-16 px-6 border-t border-warm-800">
-        <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center space-y-8 md:space-y-0">
-            <div>
-                <span class="font-serif text-3xl tracking-wide">Atelier Café</span>
-                <p class="text-xs text-warm-400 mt-2 uppercase tracking-widest">Quiet Luxury & Artisanal Roastery</p>
-            </div>
-            <div class="flex space-x-8 text-sm font-light text-warm-300">
-                <a href="#philosophy" class="hover:text-warm-50 transition">Philosophy</a>
-                <a href="#offerings" class="hover:text-warm-50 transition">Offerings</a>
-                <a href="#space" class="hover:text-warm-50 transition">Space</a>
-                <a href="#hours" class="hover:text-warm-50 transition">Contact</a>
-            </div>
-            <div class="text-xs text-warm-400 font-light">
-                © 2026 Atelier Café. All rights reserved.
+    <footer class="py-16 px-6 bg-warm-100 text-warm-900">
+        <div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-8">
+            <span class="font-serif text-3xl tracking-wide">Atelier Café</span>
+            <p class="text-xs text-warm-800/60 uppercase tracking-widest">© 2026 Atelier Café Roastery. All rights reserved.</p>
+            <div class="flex space-x-6 text-sm">
+                <a href="#" class="hover:text-terracotta transition">Instagram</a>
+                <a href="#" class="hover:text-terracotta transition">Journal</a>
+                <a href="#" class="hover:text-terracotta transition">Contact</a>
             </div>
         </div>
     </footer>
 
     <!-- RESERVATION MODAL -->
-    <div id="reserve-modal" class="fixed inset-0 z-50 bg-warm-900/60 backdrop-blur-sm flex items-center justify-center p-4 opacity-0 pointer-events-none transition-all duration-300">
-        <div class="bg-warm-50 border border-warm-200 rounded-2xl max-w-lg w-full p-8 shadow-2xl relative scale-95 transition-transform duration-300" id="modal-content">
+    <div id="reserve-modal" class="fixed inset-0 z-50 bg-warm-900/80 backdrop-blur-md flex items-center justify-center p-6 opacity-0 pointer-events-none transition-all duration-300">
+        <div class="bg-warm-50 max-w-lg w-full p-8 sm:p-12 rounded-3xl shadow-2xl relative space-y-6 border border-warm-200 transform scale-95 transition-transform duration-300" id="modal-card">
             <button onclick="toggleReserveModal(false)" class="absolute top-6 right-6 p-2 text-warm-900 hover:text-terracotta">
                 <i data-lucide="x" class="w-6 h-6"></i>
             </button>
-            <h3 class="font-serif text-3xl text-warm-900 mb-2">Reserve a Table</h3>
-            <p class="text-xs text-warm-600 uppercase tracking-wider mb-6">Experience mindful morning rituals at Atelier</p>
+            
+            <div class="space-y-2">
+                <span class="text-xs uppercase tracking-widest font-semibold text-terracotta">Booking</span>
+                <h3 class="font-serif text-3xl text-warm-900">Reserve Your Table</h3>
+            </div>
 
             <form onsubmit="handleReservation(event)" class="space-y-4">
                 <div>
-                    <label class="block text-xs uppercase tracking-wider font-semibold text-warm-800 mb-1">Your Name</label>
-                    <input type="text" required class="w-full bg-warm-100 border border-warm-200 rounded-lg px-4 py-3 text-sm text-warm-900 focus:outline-none focus:border-terracotta transition" placeholder="Elena Vance">
+                    <label class="block text-xs uppercase tracking-widest text-warm-800 mb-2">Full Name</label>
+                    <input type="text" required class="w-full px-4 py-3 bg-warm-100/80 border border-warm-200 rounded-xl focus:outline-none focus:border-terracotta text-warm-900">
                 </div>
                 <div class="grid grid-cols-2 gap-4">
                     <div>
-                        <label class="block text-xs uppercase tracking-wider font-semibold text-warm-800 mb-1">Date</label>
-                        <input type="date" required class="w-full bg-warm-100 border border-warm-200 rounded-lg px-4 py-3 text-sm text-warm-900 focus:outline-none focus:border-terracotta transition">
+                        <label class="block text-xs uppercase tracking-widest text-warm-800 mb-2">Date</label>
+                        <input type="date" required class="w-full px-4 py-3 bg-warm-100/80 border border-warm-200 rounded-xl focus:outline-none focus:border-terracotta text-warm-900">
                     </div>
                     <div>
-                        <label class="block text-xs uppercase tracking-wider font-semibold text-warm-800 mb-1">Time</label>
-                        <select class="w-full bg-warm-100 border border-warm-200 rounded-lg px-4 py-3 text-sm text-warm-900 focus:outline-none focus:border-terracotta transition">
+                        <label class="block text-xs uppercase tracking-widest text-warm-800 mb-2">Time</label>
+                        <select required class="w-full px-4 py-3 bg-warm-100/80 border border-warm-200 rounded-xl focus:outline-none focus:border-terracotta text-warm-900">
                             <option>09:00 AM</option>
-                            <option>10:00 AM</option>
-                            <option>11:00 AM</option>
+                            <option>10:30 AM</option>
                             <option>12:00 PM</option>
-                            <option>01:00 PM</option>
-                            <option>02:00 PM</option>
+                            <option>03:30 PM</option>
+                            <option>05:00 PM</option>
+                            <option>06:30 PM</option>
                         </select>
                     </div>
                 </div>
                 <div>
-                    <label class="block text-xs uppercase tracking-wider font-semibold text-warm-800 mb-1">Number of Guests</label>
-                    <select class="w-full bg-warm-100 border border-warm-200 rounded-lg px-4 py-3 text-sm text-warm-900 focus:outline-none focus:border-terracotta transition">
+                    <label class="block text-xs uppercase tracking-widest text-warm-800 mb-2">Guests</label>
+                    <select required class="w-full px-4 py-3 bg-warm-100/80 border border-warm-200 rounded-xl focus:outline-none focus:border-terracotta text-warm-900">
                         <option>1 Guest</option>
-                        <option>2 Guests</option>
+                        <option selected>2 Guests</option>
+                        <option>3 Guests</option>
                         <option>4 Guests</option>
-                        <option>6 Guests (Private Alcove)</option>
+                        <option>5+ Guests (Tasting Table)</option>
                     </select>
                 </div>
-                <button type="submit" class="w-full py-4 bg-warm-900 text-warm-50 rounded-lg font-medium text-sm uppercase tracking-wider hover:bg-terracotta transition duration-300 mt-2">
+                <button type="submit" class="w-full py-4 bg-warm-900 text-warm-50 text-xs font-semibold uppercase tracking-widest rounded-full hover:bg-terracotta transition duration-300 mt-2">
                     Confirm Reservation
                 </button>
             </form>
-            <div id="reservation-success" class="hidden text-center py-8 space-y-3">
-                <i data-lucide="check-circle-2" class="w-12 h-12 text-terracotta mx-auto"></i>
-                <h4 class="font-serif text-2xl text-warm-900">Reservation Confirmed</h4>
-                <p class="text-sm text-warm-700 font-light">We look forward to welcoming you to Atelier Café.</p>
-                <button onclick="toggleReserveModal(false)" class="mt-4 px-6 py-2 bg-warm-900 text-warm-50 text-xs uppercase tracking-widest rounded-full">Close</button>
-            </div>
         </div>
+    </div>
+
+    <!-- SUCCESS TOAST -->
+    <div id="toast" class="fixed bottom-8 right-8 z-50 bg-warm-900 text-warm-50 px-6 py-4 rounded-2xl shadow-2xl flex items-center space-x-3 transform translate-y-24 opacity-0 transition-all duration-300">
+        <i data-lucide="check-circle" class="w-5 h-5 text-terracotta"></i>
+        <span class="text-sm font-medium">Table reserved successfully! We look forward to welcoming you.</span>
     </div>
 
     <script>
@@ -392,24 +401,26 @@
 
         function toggleReserveModal(show) {
             const modal = document.getElementById('reserve-modal');
-            const content = document.getElementById('modal-content');
+            const card = document.getElementById('modal-card');
             if (show) {
                 modal.classList.remove('opacity-0', 'pointer-events-none');
-                content.classList.remove('scale-95');
-                content.classList.add('scale-100');
+                card.classList.remove('scale-95');
+                card.classList.add('scale-100');
             } else {
                 modal.classList.add('opacity-0', 'pointer-events-none');
-                content.classList.remove('scale-100');
-                content.classList.add('scale-95');
-                document.getElementById('reservation-success').classList.add('hidden');
-                modal.querySelector('form').classList.remove('hidden');
+                card.classList.remove('scale-100');
+                card.classList.add('scale-95');
             }
         }
 
-        function handleReservation(e) {
-            e.preventDefault();
-            e.target.classList.add('hidden');
-            document.getElementById('reservation-success').classList.remove('hidden');
+        function handleReservation(event) {
+            event.preventDefault();
+            toggleReserveModal(false);
+            const toast = document.getElementById('toast');
+            toast.classList.remove('translate-y-24', 'opacity-0');
+            setTimeout(() => {
+                toast.classList.add('translate-y-24', 'opacity-0');
+            }, 4000);
         }
     </script>
 </body>
